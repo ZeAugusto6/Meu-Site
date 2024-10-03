@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviço de Más Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Serviço de Más Notícias</h1>
+        <p>Precisas contar más notícias? Deixa que eu faço isso por ti e da maneira que quiseres. Eu sei quanto pesa uma má notícia nas tuas costas e quero que te livres disso!</p>
+        <a href="#contato" class="cta-button">Vamos Conversar</a>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Serviço</h2>
+        <p>Ofereço um serviço de comunicação delicada e personalizada, ajudando-te a contar das piores notícias aos teus amigos, familiares ou colegas de trabalho. Há inúmeras possibilidades criativas que podemos explorar para aliviar esse fardo.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para que possamos discutir como posso te ajudar:</p>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Serviço de Más Notícias - Aqui para aliviar o peso das más notícias.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 5px solid #42a5f5;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 0;
+    color: #0d47a1;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #444;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #42a5f5;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1e88e5;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #1e88e5;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #42a5f5;
+}
+
+.btn {
+    padding: 15px;
+    background-color: #42a5f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1e88e5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    border-top: 3px solid #42a5f5;
+    margin-top: 50px;
+}
+
